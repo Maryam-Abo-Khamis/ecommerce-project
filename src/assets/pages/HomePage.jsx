@@ -3,6 +3,7 @@ import './header.css'
 export function Homepage(){
   return(
     <>
+      <title>Ecommerce page</title>
         <div className="header">
           <div className="left-section">
             <a href="index.html" className="header-link">
@@ -22,12 +23,12 @@ export function Homepage(){
           </div>
 
           <div className="right-section">
-            <a className="orders-link header-link" href="orders.html">
+            <a className="orders-link header-link" href="order/">
 
               <span className="orders-text">Orders</span>
             </a>
 
-            <a className="cart-link header-link" href="checkout.html">
+            <a className="cart-link header-link" href="checkout/">
               <img className="cart-icon" src="images/icons/cart-icon.png" />
               <div className="cart-quantity">3</div>
               <div className="cart-text">Cart</div>
