@@ -1,46 +1,15 @@
 import './OrderPage.css'
+import { Header } from '../components/Header'
 export function OrderPage() {
   return (
     <>
       <title>Order page</title>
-      <div className="header">
-        <div className="left-section">
-          <a href="/" className="header-link">
-            <img className="logo"
-              src="images/logo-white.png" />
-            <img className="mobile-logo"
-              src="images/mobile-logo-white.png" />
-          </a>
-        </div>
-
-        <div className="middle-section">
-          <input className="search-bar" type="text" placeholder="Search" />
-
-          <button className="search-button">
-            <img className="search-icon" src="images/icons/search-icon.png" />
-          </button>
-        </div>
-
-        <div className="right-section">
-          <a className="orders-link header-link" href="order/">
-
-            <span className="orders-text">Orders</span>
-          </a>
-
-          <a className="cart-link header-link" href="checkout/">
-            <img className="cart-icon" src="images/icons/cart-icon.png" />
-            <div className="cart-quantity">3</div>
-            <div className="cart-text">Cart</div>
-          </a>
-        </div>
-      </div>
-
+      <Header />
       <div className="orders-page">
         <div className="page-title">Your Orders</div>
 
         <div className="orders-grid">
           <div className="order-container">
-
             <div className="order-header">
               <div className="order-header-left-section">
                 <div className="order-date">
@@ -52,7 +21,6 @@ export function OrderPage() {
                   <div>$35.06</div>
                 </div>
               </div>
-
               <div className="order-header-right-section">
                 <div className="order-header-label">Order ID:</div>
                 <div>27cba69d-4c3d-4098-b42d-ac7fa62b7664</div>
@@ -61,7 +29,7 @@ export function OrderPage() {
 
             <div className="order-details-grid">
               <div className="product-image-container">
-                <img src="images/products/athletic-cotton-socks-6-pairs.jpg" />
+                <img src="/images/products/athletic-cotton-socks-6-pairs.jpg" />
               </div>
 
               <div className="product-details">
@@ -75,7 +43,7 @@ export function OrderPage() {
                   Quantity: 1
                 </div>
                 <button className="buy-again-button button-primary">
-                  <img className="buy-again-icon" src="images/icons/buy-again.png" />
+                  <img className="buy-again-icon" src="/images/icons/buy-again.png" />
                   <span className="buy-again-message">Add to Cart</span>
                 </button>
               </div>
@@ -89,7 +57,7 @@ export function OrderPage() {
               </div>
 
               <div className="product-image-container">
-                <img src="images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg" />
+                <img src="/images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg" />
               </div>
 
               <div className="product-details">
@@ -103,7 +71,7 @@ export function OrderPage() {
                   Quantity: 2
                 </div>
                 <button className="buy-again-button button-primary">
-                  <img className="buy-again-icon" src="images/icons/buy-again.png" />
+                  <img className="buy-again-icon" src="/images/icons/buy-again.png" />
                   <span className="buy-again-message">Add to Cart</span>
                 </button>
               </div>
@@ -140,7 +108,7 @@ export function OrderPage() {
 
             <div className="order-details-grid">
               <div className="product-image-container">
-                <img src="images/products/intermediate-composite-basketball.jpg" />
+                <img src="/images/products/intermediate-composite-basketball.jpg" />
               </div>
 
               <div className="product-details">
@@ -154,7 +122,7 @@ export function OrderPage() {
                   Quantity: 2
                 </div>
                 <button className="buy-again-button button-primary">
-                  <img className="buy-again-icon" src="images/icons/buy-again.png" />
+                  <img className="buy-again-icon" src="/images/icons/buy-again.png" />
                   <span className="buy-again-message">Add to Cart</span>
                 </button>
               </div>
